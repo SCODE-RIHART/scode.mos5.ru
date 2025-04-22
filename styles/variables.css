@@ -1,0 +1,76 @@
+:root {
+	--bg-color: #f4f4f4;
+	--text-color: #333;
+	--card-bg: #ffffff;
+	--card-border: #ddd;
+	--accent-color: #007bff;
+	--accent-text-color: #ffffff;
+	--secondary-bg: #e9e9e9;
+	--secondary-text: #555;
+	--shadow-color: rgba(0, 0, 0, 0.1);
+	--button-bg: #e0e0e0;
+	--button-text: #333;
+	--button-hover-bg: #d5d5d5;
+	--select-bg: #fff;
+	--select-border: #ccc;
+	--new-badge-text: #ffffff;
+	--download-count-color: var(--accent-text-color);
+
+	--favorite-button-bg: rgba(255, 255, 255, 0.7);
+	--favorite-button-border: transparent;
+	--favorite-button-text: var(--text-color);
+	--favorite-button-hover-bg: rgba(220, 220, 220, 0.9);
+	--favorite-button-favorite-color: #2F3137;
+}
+
+.dark-theme {
+	--bg-color: #1a1a1a;
+	--text-color: #e0e0e0;
+	--card-bg: #2c2c2c;
+	--card-border: #444;
+	--accent-color: #0d6efd;
+	--accent-text-color: #ffffff;
+	--secondary-bg: #3a3a3a;
+	--secondary-text: #bbb;
+	--shadow-color: rgba(0, 0, 0, 0.4);
+	--button-bg: #444;
+	--button-text: #e0e0e0;
+	--button-hover-bg: #555;
+	--select-bg: #333;
+	--select-border: #555;
+	--new-badge-text: #ffffff;
+	--download-count-color: var(--accent-text-color);
+
+	--favorite-button-bg: rgba(0, 0, 0, 0.5);
+	--favorite-button-border: transparent;
+	--favorite-button-text: var(--text-color);
+	--favorite-button-hover-bg: rgba(80, 80, 80, 0.8);
+	--favorite-button-favorite-color: #FFC300;
+}
+
+@media (prefers-color-scheme: dark) {
+	.system-theme {
+	   --bg-color: #1a1a1a;
+	   --text-color: #e0e0e0;
+	   --card-bg: #2c2c2c;
+	   --card-border: #444;
+	   --accent-color: #0d6efd;
+	   --accent-text-color: #ffffff;
+	   --secondary-bg: #3a3a3a;
+	   --secondary-text: #bbb;
+	   --shadow-color: rgba(0, 0, 0, 0.4);
+	   --button-bg: #444;
+	   --button-text: #e0e0e0;
+	   --button-hover-bg: #555;
+	   --select-bg: #333;
+	   --select-border: #555;
+	   --new-badge-text: #ffffff;
+	   --download-count-color: var(--accent-text-color);
+
+		--favorite-button-bg: rgba(0, 0, 0, 0.5);
+		--favorite-button-border: transparent;
+		--favorite-button-text: var(--text-color);
+		--favorite-button-hover-bg: rgba(80, 80, 80, 0.8);
+		--favorite-button-favorite-color: #FFC300;
+	}
+}

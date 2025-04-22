@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+
+
+<html>
+
+
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>SCODE</title>
+   <link rel="icon" type="image/x-icon" href="brand/icon/#"/>
+
+   <!-- Подключение всех стилей к этому html-файлу: -->
+   <link rel="stylesheet" href="styles/variables.css"/>
+   <link rel="stylesheet" href="styles/style.css"/>
+</head>
+
+
+
+<body class="system-theme">
+
+   <div class="container">
+      <br>
+      <h1 data-translate-key="site_title">Ready Scratch Code for TurboWarp</h1>
+
+      <nav>
+         <button id="settings-button" aria-label="Open Settings" class="setButton">
+            <span class="settings-icon">⚙️</span><span data-translate-key="settings_button">Settings</span>
+         </button>
+
+         <div>
+            <label for="filter-select" data-translate-key="filter_label">Show:</label>
+            <select id="filter-select">
+               <option value="all" data-translate-key="filter_all">All</option>
+               <option value="favorites" data-translate-key="filter_favorites">Favorites</option>
+            </select>
+         </div>
+
+         <div>
+            <label for="sort-select" data-translate-key="sort_label">Sort:</label>
+            <select id="sort-select">
+               <option value="new" data-translate-key="sort_new">New</option>
+               <option value="old" data-translate-key="sort_old">Old</option>
+               <option value="random" data-translate-key="sort_random">Randomly</option>
+            </select>
+         </div>
+
+         <div class="search-container">
+            <span class="search-icon">🔍</span>
+            <input type="search" id="search-input" data-translate-placeholder="search_placeholder" placeholder="Search...">
+            <button class="reset-search" id="reset-search-button" aria-label="Reset Search">&times;</button>
+         </div>
+
+         <br><br>
+
+         <form action="https://spasibomir.ru/" target="_blank">
+            <button id="tea-button" aria-label="Open Donate">
+               <span data-translate-key="tea_button">Buy me a coffee, please ☕</span>
+            </button>
+         </form>
+      </nav>
+
+      <main>
+         <div id="card-container">
+            </div>
+         <div id="no-favorites-message" style="display: none;" data-translate-key="no_favorites">
+            No favorite cards yet...
+         </div>
+      </main>
+   </div>
+
+   <div id="settings-modal" class="modal-overlay">
+      <div class="modal-content">
+         <button id="modal-close-button" class="modal-close-button" aria-label="Close Settings">&times;</button>
+         <h2 data-translate-key="settings_title">Settings</h2>
+
+         <div class="setting">
+            <label for="language-select" data-translate-key="language_label">Site Language:</label>
+            <select id="language-select">
+               <option value="en">English</option>
+               <option value="ru">Русский</option>
+            </select>
+         </div>
+
+         <br>
+
+         <div class="setting">
+            <label for="theme-select" data-translate-key="theme_label">Site Theme:</label>
+            <select id="theme-select">
+               <option value="system" data-translate-key="theme_system">System</option>
+               <option value="light" data-translate-key="theme_light">Light Mode</option>
+               <option value="dark" data-translate-key="theme_dark">Dark Mode</option>
+            </select>
+         </div>
+
+         <br>
+
+         <div class="setting">
+            <label data-translate-key="hashtags_label">Hashtags:</label>
+            <button id="toggle-hashtags-button" data-translate-key="toggle_hashtags_show">Show Hashtags</button>
+         </div>
+      </div>
+    </div>
+</body>
+
+
+
+<!-- Подключение всех БЭКЕНД-эллементов (Java Script) к этому html-файлу: -->
+<script src='backend/billet.js'></script>
+<script src='backend/translator.js'></script>
+<script src='backend/backend.js'></script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();
+   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(101274405, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/101274405" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+
+
+</html>
