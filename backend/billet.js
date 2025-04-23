@@ -28,7 +28,7 @@ const cardData = [
       author_en: 'Melentyev Richard (RIHART / WAYLIVES)',
       author_ru: 'Мелентьев Ричард (RIHART / WAYLIVES)',
       hashtags: ['#data', '#дата', '#time', '#время', '#календарь', '#calendar', '#Melentyev', '#Richard', '#RIHART', '#WAYLIVES', '#Мелентьев', '#Ричард'],
-      downloadUrl: '#',
+      downloadUrl: 'files/Data/Data.sb3',
       docsUrl: '#'
    },
 
@@ -45,7 +45,7 @@ const cardData = [
       author_en: 'Melentyev Richard (RIHART / WAYLIVES)',
       author_ru: 'Мелентьев Ричард (RIHART / WAYLIVES)',
       hashtags: ['#time', '#время', '#часы', '#clock', '#Melentyev', '#Richard', '#RIHART', '#WAYLIVES', '#Мелентьев', '#Ричард'],
-      downloadUrl: '#',
+      downloadUrl: 'files/Time/Time.sb3',
       docsUrl: '#'
    },
    
@@ -62,7 +62,7 @@ const cardData = [
       author_en: 'Melentyev Richard (RIHART / WAYLIVES)',
       author_ru: 'Мелентьев Ричард (RIHART / WAYLIVES)',
       hashtags: ['#text', '#текст', '#ввод', '#набор', '#клавиши', '#клавиатура', '#печатать', '#keys', '#input', '#set', '#keyboard', '#print', '#v1', '#v-1', '#v.1', '#Melentyev', '#Richard', '#RIHART', '#WAYLIVES', '#Мелентьев', '#Ричард'],
-      downloadUrl: '#',
+      downloadUrl: 'files/Text/Text.sb3',
       docsUrl: '#'
    },
 
@@ -79,7 +79,7 @@ const cardData = [
       author_en: 'Melentyev Richard (RIHART / WAYLIVES)',
       author_ru: 'Мелентьев Ричард (RIHART / WAYLIVES)',
       hashtags: ['#button', '#click', '#кнопка', '#Mozilla', '#Firefox', '#Мозила', '#Файрефокс', '#браузер', '#browser', '#клик', '#Melentyev', '#Richard', '#RIHART', '#WAYLIVES', '#Мелентьев', '#Ричард'],
-      downloadUrl: '#',
+      downloadUrl: 'files/Button (Mozilla Firefox)/Button (Mozilla Firefox).sb3',
       docsUrl: '#'
    },
 
