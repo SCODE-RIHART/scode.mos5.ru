@@ -2,7 +2,7 @@ const cardData = [
    // #1 (Button PRO)
    {
       id: 1,
-      imageUrl: 'images/Frame.svg',
+      imageUrl: 'images/Button PRO/1.png',
       title_en: 'Button PRO',
       title_ru: 'Кнопка PRO',
       description_en: 'A ready-made button code that functions just like a standard button.',
