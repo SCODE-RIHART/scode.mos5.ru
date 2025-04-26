@@ -82,6 +82,23 @@ const cardData = [
       downloadUrl: 'files/Button (Mozilla Firefox)/Button (Mozilla Firefox).sb3',
       docsUrl: '#'
    },
+   
+
+   // #6 (Clone Management)
+   {
+      id: 6,
+      imageUrl: 'images/Frame.svg',
+      title_en: 'Clone Management',
+      title_ru: 'Управление Клонами',
+      description_en: 'This GSK contains an example code that can be used to manage clones in a single sprite.',
+      description_ru: 'Данный ГСК содержит пример кода, с помощью которого можно управлять клонами в одном спрайте.',
+      date: '26.04.2025',
+      author_en: 'Melentyev Richard (RIHART / WAYLIVES)',
+      author_ru: 'Мелентьев Ричард (RIHART / WAYLIVES)',
+      hashtags: ['#clone', '#клон', '#management', '#управление', '#Melentyev', '#Richard', '#RIHART', '#WAYLIVES', '#Мелентьев', '#Ричард'],
+      downloadUrl: 'files/Clone Management/Clone Management.sb3',
+      docsUrl: '#'
+   },
 
 
 ];
