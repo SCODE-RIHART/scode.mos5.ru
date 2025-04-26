@@ -118,22 +118,21 @@ const cardData = [
    },
 
 
-   // #8 (Parallax)
+   // #8 (Parallax PRO)
    {
       id: 8,
       imageUrl: 'images/Frame.svg',
-      title_en: 'Parallax',
-      title_ru: 'Параллакс',
-      description_en: 'Here is the code for the simplest way to create a parallax effect.',
-      description_ru: 'Код для самого простого способа создания эффекта параллакса.',
+      title_en: 'Parallax PRO',
+      title_ru: 'Параллакс PRO',
+      description_en: 'Smooth parallax.',
+      description_ru: 'Плавный параллакс.',
       date: '26.04.2025',
       author_en: 'Melentyev Richard (RIHART / WAYLIVES)',
       author_ru: 'Мелентьев Ричард (RIHART / WAYLIVES)',
-      hashtags: ['#parallax', '#параллакс', '#эффект', '#effect', '#Melentyev', '#Richard', '#RIHART', '#WAYLIVES', '#Мелентьев', '#Ричард'],
-      downloadUrl: 'files/Parallax/Parallax.sb3',
+      hashtags: ['#parallax', '#параллакс', '#эффект', '#effect', '#pro', '#про', '#Melentyev', '#Richard', '#RIHART', '#WAYLIVES', '#Мелентьев', '#Ричард'],
+      downloadUrl: 'files/Parallax PRO/Parallax PRO.sb3',
       docsUrl: '#'
    },
-
 
    
 ];
