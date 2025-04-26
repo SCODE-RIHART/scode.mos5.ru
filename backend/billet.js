@@ -120,10 +120,10 @@ const cardData = [
 
    // #8 (Parallax PRO)
    {
-      id: 7,
+      id: 8,
       imageUrl: 'images/Frame.svg',
       title_en: 'Parallax PRO',
-      title_ru: 'Параллакс',
+      title_ru: 'Параллакс PRO',
       description_en: 'Smooth parallax.',
       description_ru: 'Плавный параллакс.',
       date: '26.04.2025',
