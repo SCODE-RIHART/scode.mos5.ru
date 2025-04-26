@@ -101,4 +101,21 @@ const cardData = [
    },
 
 
+   // #7 (Clone Management)
+   {
+      id: 7,
+      imageUrl: 'images/Frame.svg',
+      title_en: 'Parallax',
+      title_ru: 'Параллакс',
+      description_en: 'Here is the code for the simplest way to create a parallax effect.',
+      description_ru: 'Код для самого простого способа создания эффекта параллакса.',
+      date: '26.04.2025',
+      author_en: 'Melentyev Richard (RIHART / WAYLIVES)',
+      author_ru: 'Мелентьев Ричард (RIHART / WAYLIVES)',
+      hashtags: ['#parallax', '#параллакс', '#эффект', '#effect', '#Melentyev', '#Richard', '#RIHART', '#WAYLIVES', '#Мелентьев', '#Ричард'],
+      downloadUrl: 'files/Parallax/Parallax.sb3',
+      docsUrl: '#'
+   },
+
+
 ];
