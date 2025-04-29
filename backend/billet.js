@@ -134,5 +134,22 @@ const cardData = [
       docsUrl: '#'
    },
 
+
+   // #9 (Independent size)
+   {
+      id: 9,
+      imageUrl: 'images/Frame.svg',
+      title_en: 'Independent size',
+      title_ru: 'Независимый размер',
+      description_en: 'The sprite size can be set to any value, both small and large.',
+      description_ru: 'Размер спрайта может быть установлен на любое значение, как маленькое, так и большое.',
+      date: '29.04.2025',
+      author_en: 'Melentyev Richard (RIHART / WAYLIVES)',
+      author_ru: 'Мелентьев Ричард (RIHART / WAYLIVES)',
+      hashtags: ['#size', '#размер', '#независимость', '#independence', '#big', '#small', '#большой', '#маленький', '#Melentyev', '#Richard', '#RIHART', '#WAYLIVES', '#Мелентьев', '#Ричард'],
+      downloadUrl: 'files/Independent size/Independent size.sb3',
+      docsUrl: '#'
+   },
+
    
 ];
